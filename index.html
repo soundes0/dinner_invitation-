@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Invitation au dîner</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap" rel="stylesheet">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #441752;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+
+    .invitation {
+      background: #FFDFEF;
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      color: #441752;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-weight: 600;
+      color: #441752;
+      margin-top: 1.5rem;
+    }
+
+    a {
+      color: #441752;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-style: italic;
+      color: #555;
+      font-size: 1rem;
+    }
+
+    /* Fix 100vh issue on mobile */
+    @supports (-webkit-touch-callout: none) {
+      body {
+        min-height: -webkit-fill-available;
+      }
+    }
+
+    /* Mobile tweaks */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .invitation {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="invitation">
+    <h1>Vous êtes invités! 💜</h1>
+    <p>Salam alaikum ! Ce soir, c’est moi la chef, et je vous attends tous pour un bon dîner 🍽</p>
+
+    <h2>🕰 Détails</h2>
+    <p><strong>Quand :</strong> Ce soir à 20h00<br>
+    <strong>Où :</strong> Le salon 🛋</p>
+
+    <h2>💌 </h2>
+    <p>Pensez à sauter le déjeuner hhh pour mieux savourer le dîner !</p>
+
+    <div class="footer">Avec amour, votre fille & chef 💜<br>Soundes</div>
+  </div>
+</body>
+</html>
